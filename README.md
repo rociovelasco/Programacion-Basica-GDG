@@ -1,8 +1,6 @@
 # Curso de Programación Básica GDG La Paz
 
-
-
-##Información del curso
+## Información del curso
 
 Este curso está orientado para estudiantes iniciales que no tengan ningún conocimiento o experiencia previa en la programación.  
 
