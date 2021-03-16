@@ -1,0 +1,29 @@
+:root {
+    --blanco-claro: #FFF;
+    --blanco-oscuro: #f2f2f2;
+    --negro: #0b132a;
+    --azul-claro: #3340FF;
+    --plomo: #6D6D6D;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Cabecera */
+
+.header {
+    background-color: var(--blanco-oscuro);
+    height: 115px;
+    color: var(--plomo);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .logo img{
+    width: 200px;
+}
