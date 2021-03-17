@@ -1,0 +1,237 @@
+:root {
+    --blanco-claro: #FFF;
+    --blanco-oscuro: #f2f2f2;
+    --negro: #0b132a;
+    --azul-claro: #3340FF;
+    --plomo: #6D6D6D;
+    --plomo-bajo: #F7F7F7;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Cabecera */
+
+.header {
+    background-color: var(--blanco-oscuro);
+    height: 115px;
+    color: var(--plomo);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .logo img{
+    width: 200px;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header li a{
+    color: var(--plomo);
+    text-decoration: none;
+}
+.menu{
+    height: inherit;
+}
+
+.header nav ol {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header ol li a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.header li a:hover{
+    color: var(--azul-claro);
+}
+
+.contacto-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    background-color: var(--azul-claro);
+    color: var(--blanco-claro);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+/* Hero */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-descripcion{
+    display: inline-block;
+}
+.hero-descripcion h1{
+
+    font-size: 80px;
+    line-height: 100px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.hero-descripcion h1 strong{
+
+    color: var(--azul-claro);
+}
+
+.hero-descripcion p{
+    font-size: 20px;
+    color: var(--plomo);
+    margin-bottom: 50px;
+}
+.hero-descripcion a{
+    text-decoration: none;
+    background-color: var(--azul-claro);
+    color: var(--blanco-claro);
+    /* text-align: center; */
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+
+/* Suscripcion */
+
+.suscripcion{
+    display: flex; /*poner en horizontal*/
+    align-items: center; /*poner en el centro*/
+    justify-content: center; /*poner en el centro
+     vertical*/
+    margin-top: 90px;
+}
+
+.suscripcion-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--plomo-bajo);
+    width: 1140px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.suscripcion-detalle h1{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+    margin: 0px;
+}
+
+.suscripcion-detalle p{
+    color: var(--plomo);
+    font-size: 15px;
+    margin: 0px;
+}
+
+.suscripcion-form input{
+
+    background-color: var(--blanco-claro);
+    border: solid var(--blanco-claro);
+    width: 250px;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+}
+
+.suscripcion-form input::-webkit-input-placeholder{
+    color: var(--plomo);
+    font-size: 15px;
+    text-align: center;
+}
+
+.suscripcion-form a{
+
+    text-decoration: none;
+    color: var(--blanco-claro);
+    background-color: var(--azul-claro);
+    padding: 18px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px;
+}
+
+/* Proceso de desarrollo  */
+
+.trabajo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.trabajo-imagen img{
+    width: 500px;
+    margin-right: 100px;
+}
+
+.trabajo-descripcion{
+    display: inline-block;
+}
+
+.trabajo-texto .arriba{
+    font-size: 15px;
+    color: var(--plomo);
+}
+.trabajo-texto h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.trabajo-texto .abajo{
+    font-size: 20px;
+    color: var(--plomo);
+}
+
+.trabajo-botones{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.trabajo-botones .boton-azul{
+    text-decoration: none;
+    text-align: center;
+    color: var(--blanco-claro);
+    background-color: var(--azul-claro);
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+.trabajo-botones .boton-blanco{
+    text-decoration: none;
+    text-align: center;
+    color: var(--azul-claro);
+    background-color: var(--blanco-claro);
+    padding: 15px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 15px 5px rgba(0, 0, 0, 0.16);
+}
